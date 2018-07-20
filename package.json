@@ -1,13 +1,13 @@
 {
-  "name": "test-one",
+  "name": "parcel-bundler-reason-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template ReasonReact app on top of parcel-bundler",
+  "main": "index.bs.js",
   "scripts": {
     "dev": "./node_modules/parcel-bundler/bin/cli.js src/index.html",
     "build": "./node_modules/parcel-bundler/bin/cli.js build src/index.html --experimental-scope-hoisting"
   },
-  "author": "",
+  "author": "louis_boyle@hotmail.com",
   "license": "ISC",
   "devDependencies": {
     "bs-platform": "^4.0.0",
